@@ -1,0 +1,64 @@
+[2019-09-13T14:51:20.427] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T14:51:20.432] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T14:52:30.043] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T14:52:30.047] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T14:52:51.555] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T14:52:51.559] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T14:53:21.936] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T14:53:21.940] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T14:53:22.210] [INFO] default - ::1 - - "GET /api/core/gareth HTTP/1.1" 200 29 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-13T14:53:36.869] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T14:53:36.873] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T14:55:27.224] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T14:55:27.228] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T14:58:24.821] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T14:58:24.825] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:01:33.240] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:01:33.244] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:02:10.562] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:02:10.567] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:03:08.141] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:03:08.145] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:20:40.795] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:20:40.800] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:21:21.248] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:21:21.253] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:21:21.981] [INFO] default - ::1 - - "GET /api/core/ HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-13T15:22:14.972] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:22:14.976] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:28:57.566] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:28:57.570] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:29:58.474] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:29:58.478] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:30:10.234] [INFO] default - ::1 - - "GET /api/core/matt HTTP/1.1" 404 152 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-13T15:30:25.586] [INFO] default - ::1 - - "GET /api/v1/matt HTTP/1.1" 404 150 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-13T15:30:34.766] [INFO] default - ::1 - - "GET /api/v1/users HTTP/1.1" 404 151 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-13T15:30:53.920] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:30:53.925] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:31:28.059] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:31:28.064] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:31:54.471] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:31:54.475] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:32:01.677] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:32:01.682] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:32:37.473] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:32:37.478] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:32:56.189] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:32:56.193] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:34:32.723] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:34:32.731] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:34:46.129] [INFO] default - ::1 - - "GET /api/v1/cho HTTP/1.1" 200 26 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-13T15:35:30.134] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:35:30.142] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T15:54:26.021] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T15:54:26.026] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T16:03:46.842] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T16:03:46.847] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T16:03:47.094] [INFO] default - ::1 - - "GET /api/v1/ping HTTP/1.1" 200 27 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-13T16:09:37.722] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T16:09:37.727] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T16:10:38.541] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T16:10:38.545] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T16:10:39.980] [INFO] default - ::1 - - "GET /api/v1/user HTTP/1.1" 404 150 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-13T16:10:48.264] [INFO] default - ::1 - - "GET /api/v1/users HTTP/1.1" 200 348 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+[2019-09-13T16:10:55.749] [INFO] default - ::1 - - "GET /api/v1/users/name HTTP/1.1" 200 28 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"

@@ -1,0 +1,4 @@
+[2019-09-13T14:20:36.991] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T14:20:36.996] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
+[2019-09-13T14:25:18.210] [INFO] default - API listening on http://localhost:8000/appmetrics-dash
+[2019-09-13T14:25:18.215] [INFO] default - OpenAPI (Swagger) spec is available at http://localhost:8000/swagger/api
