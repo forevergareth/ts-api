@@ -2,11 +2,29 @@ import * as Knex from "knex";
 import { Model } from "objection";
 const KnexConfig = require("../../knexfile");
 
-export default class Database {
-  // [ constructor ]
-  constructor() {}
+class Database {
+  // --------------------------------------------------------------------------
+  // [Private] Fields
+  // --------------------------------------------------------------------------
 
-  // Configure database
+
+  // --------------------------------------------------------------------------
+  // [Public] Constructor
+  // --------------------------------------------------------------------------
+
+  constructor() {
+    this.configure()
+  }
+
+  // --------------------------------------------------------------------------
+  // [Public] Accessors
+  // --------------------------------------------------------------------------
+
+  // --------------------------------------------------------------------------
+  // [Public] Methods
+  // --------------------------------------------------------------------------
+
+  // Configure database with knex driver
   public configure() {
     const { NODE_ENV } = process.env;
     const isProd = NODE_ENV === "production";
@@ -20,4 +38,20 @@ export default class Database {
     // Give the knex instance to objection ORM.
     Model.knex(knex);
   }
+
+  // --------------------------------------------------------------------------
+  // [Private] Methods
+  // --------------------------------------------------------------------------
 }
+
+const service  = new Database();
+
+// ----------------------------------------------------------------------------
+// Module Exports
+// ----------------------------------------------------------------------------
+
+export {
+  service as default,
+  service as Database
+}
+

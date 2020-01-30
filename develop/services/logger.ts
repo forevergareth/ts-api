@@ -1,47 +1,85 @@
-import { configure, getLogger } from "log4js";
+import { configure, getLogger, Logger } from "log4js";
 import { Service } from "typedi";
 
 // @Service()
-export default class Logger {
+class AppLogger {
+  // --------------------------------------------------------------------------
+  // [Private] Fields
+  // --------------------------------------------------------------------------
 
-    private _logger: any = null;
+  private _logger: Logger = null;
 
-    public get logger() {
-        return this._logger;
+  // --------------------------------------------------------------------------
+  // [Public] Constructor
+  // --------------------------------------------------------------------------
+
+  constructor(useFileLogger, useConsoleLogger) {
+    if (useFileLogger) {
+      this._logger = this.configureFileLogger();
     }
+    if (useConsoleLogger) {
+      // this._logger = this.configureConsoleLogger
+    }
+  }
 
-    constructor(useFileLogger, useConsoleLogger) {
-        if (useFileLogger) {
-           this._logger = this.configureFileLogger
+  
+  // --------------------------------------------------------------------------
+  // [Public] Accessors
+  // --------------------------------------------------------------------------
+
+  public get getAppLogger() {
+    return this._logger;
+  }
+
+  // --------------------------------------------------------------------------
+  // [Public] Methods
+  // --------------------------------------------------------------------------
+
+  // --------------------------------------------------------------------------
+  // [Private] Event Handlers
+  // --------------------------------------------------------------------------
+
+  // --------------------------------------------------------------------------
+  // [Private] Methods
+  // --------------------------------------------------------------------------
+  private configureFileLogger(): Logger {
+    // Initialize the log4js instance
+    let logger: Logger = null;
+
+    // Initialize the log4js instance
+    configure({
+      appenders: {
+        app: {
+          type: "file",
+          filename: "../../logs/app.log"
         }
-        // if (useConsoleLogger) {
-        //    this._logger = this.configureConsoleLogger
-        // }
-    }
+      },
+      categories: {
+        default: {
+          appenders: ["Application"],
+          level: "error"
+        }
+      }
+    });
 
-    private configureFileLogger() {
-        configure({
-            appenders: { 
-                app: { 
-                    type: 'file', 
-                    filename: '../../logs/app.log'
-                } 
-            },
-            categories: { 
-                default: { 
-                    appenders: ['app'], 
-                    level: 'error' 
-                } 
-            }
-        });
+    // Initialize the log4js instance
+    logger = getLogger();
+    logger.level = process.env.APP_LOG_LEVEL || "debug";
 
-        const logger = getLogger();
-        logger.level = process.env.APP_LOG_LEVEL || 'debug';
+    return logger;
+  }
 
-        return logger;
-    }
+  private configureConsoleLogger() {}
+}
 
-    private configureConsoleLogger() {
+const service  = new AppLogger(true, true);
 
-    }
+
+// ----------------------------------------------------------------------------
+// Module Exports
+// ----------------------------------------------------------------------------
+
+export {
+  service as default,
+  service as AppLogger
 }

@@ -5,10 +5,10 @@ import { connectLogger } from "log4js";
 import * as morgan from 'morgan';
 
 import Database from "./services/database";
-import Logger from "./services/logger";
+import AppLogger from "./services/logger";
 
-new Database().configure();
-const logger = new Logger(true, true).logger;
+
+const logger = AppLogger.getAppLogger;
 
 // its important to set container before any operation you do with routing-controllers,
 useContainer(Container);
